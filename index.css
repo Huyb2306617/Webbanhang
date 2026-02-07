@@ -1,4 +1,56 @@
 body {
      background-color: black;
-     color: while;
+     color: white;
+}
+
+.hero {
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    color: white;
+    border-radius: 12px;
+}
+
+.hero h1 {
+    font-weight: 700;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+.btn-success {
+    border-radius: 50px;
+    padding: 8px 18px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.btn-success:hover {
+    background-color: #198754;
+    transform: scale(1.05);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+footer {
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
 }
